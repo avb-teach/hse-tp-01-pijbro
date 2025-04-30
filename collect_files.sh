@@ -12,5 +12,5 @@ if [ -f "$output_dir/$filename" ]; then
     else
         cp "$file" "$output_dir/$filename"
     fi
-
+done 
 
